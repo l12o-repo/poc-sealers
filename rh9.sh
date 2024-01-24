@@ -49,3 +49,5 @@ unset HISTFILE
 #remove root users SSH history
 /bin/rm -rf ~root/.ssh/known_hosts
 
+cloud-init clean --logs --machine-id
+
